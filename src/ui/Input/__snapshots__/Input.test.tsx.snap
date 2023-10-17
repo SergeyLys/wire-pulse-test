@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component renders correctly 1`] = `
+<input
+  className="input"
+  data-testid="input-test-id"
+  onChange={[Function]}
+  type="text"
+  value=""
+/>
+`;

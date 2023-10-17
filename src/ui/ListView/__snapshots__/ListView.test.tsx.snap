@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListView component renders correctly 1`] = `
+<div
+  className="list-container"
+>
+  <div
+    className="list-header flex"
+  >
+    <div
+      style={
+        Object {
+          "width": 100,
+        }
+      }
+    >
+      Catid
+    </div>
+    <div
+      style={
+        Object {
+          "width": "70%",
+        }
+      }
+    >
+      Manufacturer
+    </div>
+    <div
+      style={
+        Object {
+          "width": 120,
+        }
+      }
+    >
+      Diameter
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      className="flex list-body-item"
+      data-testid="listview-item"
+    >
+      <div
+        className="list-body-col-item"
+        style={
+          Object {
+            "width": 100,
+          }
+        }
+      >
+        213
+      </div>
+      <div
+        className="list-body-col-item"
+        style={
+          Object {
+            "width": "70%",
+          }
+        }
+      >
+        Manufactorer 1
+      </div>
+      <div
+        className="list-body-col-item"
+        style={
+          Object {
+            "width": 120,
+          }
+        }
+      >
+        432 mAh
+      </div>
+    </div>
+    <div
+      className="flex list-body-item"
+      data-testid="listview-item"
+    >
+      <div
+        className="list-body-col-item"
+        style={
+          Object {
+            "width": 100,
+          }
+        }
+      >
+        43
+      </div>
+      <div
+        className="list-body-col-item"
+        style={
+          Object {
+            "width": "70%",
+          }
+        }
+      >
+        Manufactorer 3
+      </div>
+      <div
+        className="list-body-col-item"
+        style={
+          Object {
+            "width": 120,
+          }
+        }
+      >
+        432 mAh
+      </div>
+    </div>
+    <div
+      className="flex list-body-item"
+      data-testid="listview-item"
+    >
+      <div
+        className="list-body-col-item"
+        style={
+          Object {
+            "width": 100,
+          }
+        }
+      >
+        432
+      </div>
+      <div
+        className="list-body-col-item"
+        style={
+          Object {
+            "width": "70%",
+          }
+        }
+      >
+        Manufactorer 3
+      </div>
+      <div
+        className="list-body-col-item"
+        style={
+          Object {
+            "width": 120,
+          }
+        }
+      >
+        432 mAh
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListView component should show error state when error is not null 1`] = `
+<div
+  className="list-container"
+>
+  <div
+    className="list-header flex"
+  >
+    <div
+      style={
+        Object {
+          "width": 100,
+        }
+      }
+    >
+      Catid
+    </div>
+    <div
+      style={
+        Object {
+          "width": "70%",
+        }
+      }
+    >
+      Manufacturer
+    </div>
+    <div
+      style={
+        Object {
+          "width": 120,
+        }
+      }
+    >
+      Diameter
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      className="flex justify-center align-center flex-column error-container"
+    >
+      Some error occured
+      <div>
+        Not found
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListView component should show loading state when isLoading === true 1`] = `
+<div
+  className="list-container"
+>
+  <div
+    className="list-header flex"
+  >
+    <div
+      style={
+        Object {
+          "width": 100,
+        }
+      }
+    >
+      Catid
+    </div>
+    <div
+      style={
+        Object {
+          "width": "70%",
+        }
+      }
+    >
+      Manufacturer
+    </div>
+    <div
+      style={
+        Object {
+          "width": 120,
+        }
+      }
+    >
+      Diameter
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      className="flex justify-center align-center flex-column spinner-container"
+    >
+      <div
+        className="circle-loader"
+        data-testid="spinner"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CableTypesList component renders correctly 1`] = `
+<div
+  className="relative"
+>
+  <div
+    className="list-controls"
+  >
+    <div
+      className="flex wrap"
+    >
+      <div
+        className="flex flex-column flex-grow-1 justify-center"
+      >
+        <input
+          className="input"
+          data-testid="cable-types-list-search-input"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="flex pagination-container align-center"
+      >
+        <div
+          style={
+            Object {
+              "marginRight": 15,
+            }
+          }
+        >
+          <div
+            className="dropdown"
+          >
+            <div
+              data-testid="pagination-page-size-selector"
+              onClick={[Function]}
+            >
+              <div
+                className="dropdown-button "
+              >
+                10
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="prev arrow"
+          data-testid="pagination-arrow-prev"
+          onClick={[Function]}
+        >
+          <svg
+            height="800px"
+            version="1.1"
+            viewBox="0 0 34.075 34.075"
+            width="800px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g>
+              <g>
+                <path
+                  d="M24.57,34.075c-0.505,0-1.011-0.191-1.396-0.577L8.11,18.432c-0.771-0.771-0.771-2.019,0-2.79 L23.174,0.578c0.771-0.771,2.02-0.771,2.791,0s0.771,2.02,0,2.79l-13.67,13.669l13.67,13.669c0.771,0.771,0.771,2.021,0,2.792 C25.58,33.883,25.075,34.075,24.57,34.075z"
+                  style={
+                    Object {
+                      "fill": "#010002",
+                    }
+                  }
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          className="current"
+          data-testid="pagination-current-page"
+        >
+          1
+           of 
+          1
+        </div>
+        <div
+          className="next arrow"
+          data-testid="pagination-arrow-next"
+          onClick={[Function]}
+        >
+          <svg
+            height="800px"
+            version="1.1"
+            viewBox="0 0 185.343 185.343"
+            width="800px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g>
+              <g>
+                <path
+                  d="M51.707,185.343c-2.741,0-5.493-1.044-7.593-3.149c-4.194-4.194-4.194-10.981,0-15.175 l74.352-74.347L44.114,18.32c-4.194-4.194-4.194-10.987,0-15.175c4.194-4.194,10.987-4.194,15.18,0l81.934,81.934 c4.194,4.194,4.194,10.987,0,15.175l-81.934,81.939C57.201,184.293,54.454,185.343,51.707,185.343z"
+                  style={
+                    Object {
+                      "fill": "#010002",
+                    }
+                  }
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="list-container"
+  >
+    <div
+      className="list-header flex"
+      style={
+        Object {
+          "position": "sticky",
+          "top": "91px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "width": 100,
+          }
+        }
+      >
+        Catid
+      </div>
+      <div
+        style={
+          Object {
+            "width": "70%",
+          }
+        }
+      >
+        Manufacturer
+      </div>
+      <div
+        style={
+          Object {
+            "width": 120,
+          }
+        }
+      >
+        Diameter
+      </div>
+    </div>
+    <div
+      className="list-body"
+    >
+      <div
+        className="flex list-body-item"
+        data-testid="listview-item"
+      >
+        <div
+          className="list-body-col-item"
+          style={
+            Object {
+              "width": 100,
+            }
+          }
+        >
+          1622475
+        </div>
+        <div
+          className="list-body-col-item"
+          style={
+            Object {
+              "width": "70%",
+            }
+          }
+        >
+          Kerite
+        </div>
+        <div
+          className="list-body-col-item"
+          style={
+            Object {
+              "width": 120,
+            }
+          }
+        >
+          22.43 mAh
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown component renders correctly 1`] = `
+<div
+  className="dropdown"
+>
+  <div
+    data-testid="dropdown-trigger"
+    onClick={[Function]}
+  >
+    <div
+      className="dropdown-button "
+    >
+      Option 1
+    </div>
+  </div>
+</div>
+`;
